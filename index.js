@@ -17,7 +17,7 @@ buttons.map(button => {
             case '=':
                 try{
                     display.innerText = eval(display.innerText);
-                } catch{
+                } catch {
                     display.innerText = 'Error!'
                 }
                 break;
